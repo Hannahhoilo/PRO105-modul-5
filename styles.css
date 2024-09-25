@@ -16,6 +16,8 @@ body {
 	align-items: center;
 	align-self: center;
 	align-content: center;
+	border: 5px solid #e60b78;
+	box-shadow: 0 0 50px 15px #48abe0;
 }
 
 main {
@@ -53,10 +55,21 @@ p{
 }
 
 .magenta {
+	/*Husk relative posisjone på parent*/
 	border: solid 3px #e60b78;
 	border-radius: 5px;
 	width: 500px;
 	height: 500px;
+	position: relative;
+}
+.mini-magenta{
+	width: 100px;
+	height: 100px;
+	background: #814864;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .super-button {
