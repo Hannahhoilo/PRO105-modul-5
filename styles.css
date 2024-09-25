@@ -37,7 +37,7 @@ h1 {
 }
 
 p{
-	border: solid #d97adb 3px;
+	border: solid #e60b78 3px;
 	border-radius: 5px;
 }
 
@@ -48,16 +48,23 @@ p{
 	align-self: center;
 	align-content: center;
 	margin: 5rem;
-	border:#d97adb solid 3px;
+	border:#e60b78 solid 3px;
 	border-radius: 5px;
+}
+
+.magenta {
+	border: solid 3px #e60b78;
+	border-radius: 5px;
+	width: 500px;
+	height: 500px;
 }
 
 .super-button {
 	margin: 3rem;
 	width: 10rem;
 	height: 8rem;
-	color: #d97adb;
+	color: #e60b78;
 	background-color: #acceeb;
-	border: #d97adb solid 3px;
+	border: #e60b78 solid 3px;
 	border-radius: 20%;
 }
